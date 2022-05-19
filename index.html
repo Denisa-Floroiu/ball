@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Push the ball</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="heading">
+                <h1 class="title">
+                    PUSH
+                    <span style="font-size: 2.5rem">THE</span> BALL
+                </h1>
+                <p class="disclaimer"></p>
+            </div>
+        <div class="instructions">
+            <h2 class="subtitle" >
+            GAME INSTRUCTIONS:
+            </h2>
+            <p class="disclaimer"></p>
+            <p>← KEY A </p>
+            <p>→ KEY D</p>
+            <p>↑ KEY W</p>
+            <p>↓ KEY S</p>
+            <p>ROTATE with CLICK LEFT/RIGHT</p>
+            <p>ZOOM with mouse wheel
+            </p>
+        </div>
+        <div class="commands" style="text-align:right">
+            <div class="commands-button key-w">
+                <span class="key">↑</span>
+                <span class="key-info">FORWARD</span>
+            </div>
+             <div class="commands-button key-s">
+                <span class="key">↓</span>   
+                <span class="key-info">BACKWARD</span>
+            </div>
+            <div class="commands-button key-a">
+                <span class="key">←</span><span class="key-info">LEFT</span>
+            </div>
+            <div class="commands-button key-d">
+                <span class="key">→</span>
+                <span class="key-info">RIGHT</span>
+            </div>
+        </div>
+        <div class="read-disclaimer"></div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.js"></script>
+        <script type="text/javascript" src="./libs/physi.js"></script>
+        <script src="https://unpkg.com/three@0.120.0/examples/js/controls/OrbitControls.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
